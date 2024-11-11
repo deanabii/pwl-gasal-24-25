@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   padding: 2rem;
 }
@@ -53,4 +53,21 @@ th {
 .action {
   display: flex;
   column-gap: 4px;
-}
+} */
+
+#root {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  }
+  .form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  }
+  .container {
+  max-width: 600px;
+  }
+  
