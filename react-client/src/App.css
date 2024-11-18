@@ -55,7 +55,11 @@ th {
   column-gap: 4px;
 } */
 
+<<<<<<< HEAD
 /*#root {
+=======
+#root {
+>>>>>>> b52313201a88c0084679676a5a4a9b6765985b7b
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -69,5 +73,9 @@ th {
   }
   .container {
   max-width: 600px;
+<<<<<<< HEAD
   } */
+=======
+  }
+>>>>>>> b52313201a88c0084679676a5a4a9b6765985b7b
   
