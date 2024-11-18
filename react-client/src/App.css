@@ -55,11 +55,9 @@ th {
   column-gap: 4px;
 } */
 
-<<<<<<< HEAD
 /*#root {
 =======
 #root {
->>>>>>> b52313201a88c0084679676a5a4a9b6765985b7b
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -75,7 +73,36 @@ th {
   max-width: 600px;
 <<<<<<< HEAD
   } */
-=======
-  }
->>>>>>> b52313201a88c0084679676a5a4a9b6765985b7b
-  
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 20px;
+  background-color: rgb(37, 37, 37);
+  color: rgb(216,210,210);
+}
+
+.menu-item {
+  display: flex;
+  column-gap: 20px;
+}
+
+.project-item {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
